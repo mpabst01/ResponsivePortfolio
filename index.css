@@ -1,0 +1,81 @@
+p {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    
+    border: 10% black;
+    padding: 2%;
+    background: url(paper.gif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    
+    margin-left: 4%;
+}
+
+body {
+    width: 100%;
+    margin: 30%;
+    color: black;
+    font-weight: normal;
+}
+
+.img-fluid {
+    width: 100% \9;
+    margin-bottom: 20%;
+}
+
+.nav-item {
+    font-family: 'Pirata One', cursive;
+    color: black;
+    font-weight: normal;
+    
+}
+
+.md-form {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.h1-responsive {
+    font-family: 'Pirata One', cursive;
+    font-size-adjust: inherit;
+    padding: 1%;
+    margin: auto; 
+    max-width: auto;
+}
+
+h2 {
+    font-family: 'Pirata One', cursive;
+    object-position: center;
+}
+.navbar-brand {
+    font-family: 'Pirata One', cursive;
+    color: black;
+    font-weight: normal;
+    
+
+}
+
+h1 {
+    font-family: 'Pirata One', cursive;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+
+}
+
+
+
+
+
+.col-sm-3 {
+    
+    margin-bottom: 10%;
+    background: blanchedalmond;
+    background-size: cover;
+    object-fit: scale-down;
+    max-width: 80%;
+    max-height: auto;
+}
