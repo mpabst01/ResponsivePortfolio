@@ -8,4 +8,5 @@ A website about me made to host my portfolio and contact information
 https://mpabst01.github.io/ResponsivePortfolio/
 
 ## Screenshot
+https://github.com/mpabst01/ResponsivePortfolio/blob/master/wesbitescreenshot.png
 
