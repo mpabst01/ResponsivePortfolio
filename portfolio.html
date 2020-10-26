@@ -8,52 +8,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+
     <title>Portfolio</title>
 </head>
 
 
 <body class="container">
-    <h1>Portfolio</h1>
-    <h3>Check out my GitHub!</h3>
-    <p><a href="https://github.com/mpabst01">Respositories</a></p>
-    <br>
-    <h3>I'm also on LinkedIn</h3>
-    <p><a href="www.linkedin.com/in/maryleepabst">here</a></p>
-    <h2>Email me: marylee@uconn.edu</h2>
-    <h2>Phone me: 4438419206</h2>
-    <h2><a href="https://drive.google.com/file/d/1oMpIxJEPK_KY4h0bYBItI9VaFc8EKUzY/view?usp=sharing">My Resume</a></h2>
+    <div class="header-card">
+        <h1>Portfolio</h1>
+        <div class="my-info">
+            <h2>Email me: marylee@uconn.edu</h2>
+            <h2>Phone me: 4438419206</h2>
+        </div>
+    </div>
+    <div class="row drive-links">
+        <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                    href="#list-home" role="tab" aria-controls="home">Resume</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">LinkedIn</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="messages">Github</a>
+            </div>
+        </div>
+        <div class="col-8 bios">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <p><a href="https://drive.google.com/file/d/1oMpIxJEPK_KY4h0bYBItI9VaFc8EKUzY/view?usp=sharing">Google
+                            PDF</a> <br> This is my most recent resume for anyone to checkout.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <p><a href="www.linkedin.com/in/maryleepabst">Click to connect with me!</a></p>
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    <p><a href="https://github.com/mpabst01">Click to look through my respositories</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <br>
-    <br>
-    <h2 class="my-repos">My repositories</h2>
-    <ul>
-        <li>
-            <p>Weather Dashboard <a href="https://github.com/mpabst01/Weather_Dashboard">github link</a></p>
-        </li>
-        <li>
-            <p>Star Wars Quiz Utilizing APIs <a href="https://github.com/mpabst01/starWarsTrivia">github link</a></p>
+    <div class="list-group repos">
+        <a href="#" class="list-group-item list-group-item-action active">
+            Most Recent Projects
+        </a>
+        <a href="https://cryptic-shelf-56462.herokuapp.com/" class="list-group-item list-group-item-action">Let's
+            Hike</a>
+        <a href="https://mpabst01.github.io/starWarsTrivia/" class="list-group-item list-group-item-action">Star Wars
+            Quiz</a>
+        <a href="https://mpabst01.github.io/PasswordGenerator/" class="list-group-item list-group-item-action">Password
+            Generator</a>
+    </div>
 
-        </li>
-        <li>
-            <p>Password Generator <a href="https://github.com/mpabst01/PasswordGenerator">github link</a></p>
-        </li>
-    </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-
-    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
